@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: yellow;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    background-color: white;
+    flex: 2;
+}
+
+main aside {
+    background-color: pink;
+    flex: 1;
+}
+
+main nav {
+    background-color: aquamarine;
+    flex: 1;
+}
+
+footer {
+    background-color: yellow;
+    padding: 1rem;
+}
